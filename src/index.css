@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #242424;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  min-height: 100vh;
+}
+
+.hero-img {
+  filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.25));
+}
+
+.btn-shadow {
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
+}
+.poster-shadow {
+  filter: drop-shadow(0 0 7px rgba(255, 255, 255, .4));
+}
